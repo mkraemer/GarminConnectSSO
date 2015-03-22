@@ -1,0 +1,15 @@
+{
+    "name": "mkraemer/garmin-connect-sso",
+    "authors": [
+        {
+            "name": "Marius Krämer",
+            "email": "marius@marius-kraemer.de"
+        }
+    ],
+    "require": {
+        "guzzlehttp/guzzle": "~5"
+    },
+    "autoload": {
+        "psr-4": { "MKraemer\\GarminConnect\\SSO\\": "src" }
+    }
+}
