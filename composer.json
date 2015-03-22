@@ -1,5 +1,7 @@
 {
     "name": "mkraemer/garmin-connect-sso",
+    "license": "MIT",
+    "keywords": ["garmin", "connect", "sso"],
     "authors": [
         {
             "name": "Marius Krämer",
