@@ -50,7 +50,7 @@ class SSO
                     'clientId' => 'GarminConnect',
                     'consumeServiceTicket' => 'false'
                 ],
-                'cookies' => true,
+                'cookies' => $this->cookieSubscriber->getCookieJar(),
                 'subscribers' => [$this->cookieSubscriber]
             ]
         );
